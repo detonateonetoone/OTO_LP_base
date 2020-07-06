@@ -1,4 +1,13 @@
 
+.hubform {
+    padding: 0 7px 0 15px;
+}
+
+.contact-header{
+    color: #BFD09B; 
+    margin: 0;
+}
+
 .footer-main {
     Position: absolute;
     left: 0;
