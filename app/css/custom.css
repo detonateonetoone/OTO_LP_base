@@ -40,6 +40,7 @@
 .prod-name {
     color: #363636;
     font-weight: bold;
+    padding: 10px 10px 20px 10px !important;
 }
 
 .cat-name {
