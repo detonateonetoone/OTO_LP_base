@@ -30,7 +30,6 @@
                     </div>
                     <div class="order-location" ng-show="BillAddress">
                         <p><strong><small>{{('Billing' | r) + ' ' + ('Location' | r) | xlat}}</small></strong></p>
-                        <p ng-show="BillAddress.AddressName"><small>{{BillAddress.AddressName}}</small></p>
                         <p ng-show="BillAddress.CompanyName"><small>{{BillAddress.CompanyName}}</small></p>
                         <p ng-show="(BillAddress.FirstName || BillAddress.LastName) && (!user.Permissions.contains('EditBillToName') && BillAddress.IsCustEditable)">
                             <small>{{BillAddress.FirstName + ' ' + BillAddress.LastName}}</small>
