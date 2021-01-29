@@ -103,7 +103,8 @@ function ($scope, $routeParams, $route, $location, $451, Product, ProductDisplay
 					$scope.user.CurrentOrderID = o.ID;
 					User.save($scope.user, function(){
 						$scope.addToOrderIndicator = true;
-						$location.path('/cart' + ($scope.isEditforApproval ? '/' + o.ID : ''));
+						//$location.path('/cart' + ($scope.isEditforApproval ? '/' + o.ID : ''));
+						$route.reload();
 					});
 				},
 				function(ex) {
