@@ -42,12 +42,11 @@ function ($scope, $rootScope, $location, User, Address, Resources) {
     var streetName = null;
     var tempShipping = null;
     var tempBilling = null;
-	$scope.address = {'Country':"CA"};
     $scope.$watch('addressobj', function(newval, oldval) {
         if (newval != oldval){
             $scope.address.IsShipping   ? (tempShipping = true) : '';
             $scope.address.IsBilling    ? (tempBilling = true)  : '';
-            $scope.address = {'Country':"CA"};
+            $scope.address = {'Country':"US"};
             tempShipping    ? $scope.address.IsShipping = tempShipping  : '';
             tempBilling     ? $scope.address.IsBilling  = tempBilling   : '';
             streetComplete  = null;
