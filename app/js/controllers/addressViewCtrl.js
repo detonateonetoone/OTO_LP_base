@@ -4,6 +4,6 @@ function ($scope, $routeParams, Address) {
         Address.get($routeParams.id, function(add) {
             $scope.address = add;
         }) :
-        $scope.address = { Country: 'US' };
+        $scope.address = { Country: 'CA' };
     $scope.return = '/addresses';
 }]);

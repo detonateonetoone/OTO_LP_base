@@ -17,7 +17,7 @@ four51.app.directive('ordershipping', ['Order', 'Shipper', 'Address', 'AddressLi
 					}
 				}
 			});
-			$scope.shipaddress = { Country: 'US', IsShipping: true, IsBilling: false };
+			$scope.shipaddress = { Country: 'CA', IsShipping: true, IsBilling: false };
 			$scope.$on('event:AddressCancel', function() {
 				$scope.shipaddressform = false;
 			});
