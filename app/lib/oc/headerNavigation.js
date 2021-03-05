@@ -26,7 +26,7 @@ function headernavigation() {
             '<li ng-show="user.Permissions.contains(\'ViewMessaging\')"><a href="message">MESSAGES</a></li>',
             '</ul>',
             '</li>',
-            '<li ng-show="user.Permissions.contains(\'ViewContactUs\')"><a href="contactus">CONTACT US</a></li>',
+            '<li ng-show="user.Permissions.contains(\'ViewContactUs\')"><a href="https://support.useone2one.com" target="_blank">SUPPORT</a></li>',
             '<li ng-show="user.Permissions.contains(\'AdvancedReporting\')"><a href="reports">REPORTS</a></li>',
             '<li><a href="order">ORDERS</a></li>',
             '<li><a href="cart">CART&nbsp;',
